@@ -48,7 +48,6 @@
             this.txtPocetnoStanje.Name = "txtPocetnoStanje";
             this.txtPocetnoStanje.Size = new System.Drawing.Size(100, 20);
             this.txtPocetnoStanje.TabIndex = 0;
-            this.txtPocetnoStanje.TextChanged += new System.EventHandler(this.txtPocetnoStanje_TextChanged);
             // 
             // txtBrojRodenih
             // 

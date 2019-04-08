@@ -19,12 +19,6 @@ namespace Vjezba4zornovose
             outputLista.DataSource = KretanjeStanovnistva.ListaPoGodini;
         }
         KretanjeStanovnistva novi = new KretanjeStanovnistva();
-
-        private void txtPocetnoStanje_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnIzracunaj_Click(object sender, EventArgs e)
         {
             try

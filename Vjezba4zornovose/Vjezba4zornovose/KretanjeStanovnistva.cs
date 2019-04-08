@@ -20,12 +20,7 @@ namespace Vjezba4zornovose
         public KretanjeStanovnistva()
         {
 
-
-            
-            
         }
-
-
 
         public void IzracunajKretanje()
         {
@@ -33,19 +28,14 @@ namespace Vjezba4zornovose
             int trenutnoStanje = PocetnoStanje;
             int brojac = 0;
             ListaPoGodini.Clear();
-
             while(trenutnoStanje > 0)
             {
                 brojac++;
                 trenutnoStanje += PromjenaPoGodini;
-
                 Godina nova = new Godina(brojac, trenutnoStanje);
                 ListaPoGodini.Add(nova);
             }
-
             
-            
-
         }
     }
 }
