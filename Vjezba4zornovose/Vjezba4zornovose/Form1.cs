@@ -40,7 +40,7 @@ namespace Vjezba4zornovose
 
         private void btnResetiraj_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Veki je gej");
+            MessageBox.Show(txtBrojPreminulih.Text);
         }
     }
 }
