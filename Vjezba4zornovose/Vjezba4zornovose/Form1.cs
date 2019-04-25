@@ -37,5 +37,10 @@ namespace Vjezba4zornovose
                 MessageBox.Show("Neispravni podaci");
             }
         }
+
+        private void btnResetiraj_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Veki je gej");
+        }
     }
 }

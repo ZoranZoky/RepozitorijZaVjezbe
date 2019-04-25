@@ -40,6 +40,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.outputLista = new System.Windows.Forms.ListBox();
             this.btnIzracunaj = new System.Windows.Forms.Button();
+            this.btnResetiraj = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPocetnoStanje
@@ -140,11 +141,22 @@
             this.btnIzracunaj.UseVisualStyleBackColor = true;
             this.btnIzracunaj.Click += new System.EventHandler(this.btnIzracunaj_Click);
             // 
+            // btnResetiraj
+            // 
+            this.btnResetiraj.Location = new System.Drawing.Point(318, 365);
+            this.btnResetiraj.Name = "btnResetiraj";
+            this.btnResetiraj.Size = new System.Drawing.Size(75, 23);
+            this.btnResetiraj.TabIndex = 12;
+            this.btnResetiraj.Text = "Resetiraj";
+            this.btnResetiraj.UseVisualStyleBackColor = true;
+            this.btnResetiraj.Click += new System.EventHandler(this.btnResetiraj_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnResetiraj);
             this.Controls.Add(this.btnIzracunaj);
             this.Controls.Add(this.outputLista);
             this.Controls.Add(this.label5);
@@ -178,6 +190,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox outputLista;
         private System.Windows.Forms.Button btnIzracunaj;
+        private System.Windows.Forms.Button btnResetiraj;
     }
 }
 
