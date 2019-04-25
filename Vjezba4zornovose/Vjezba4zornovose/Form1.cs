@@ -26,7 +26,6 @@ namespace Vjezba4zornovose
 
                 novi.PocetnoStanje = int.Parse(txtPocetnoStanje.Text);
                 novi.BrojRodenih = int.Parse(txtBrojRodenih.Text);
-                novi.BrojPreminulih = int.Parse(txtBrojPreminulih.Text);
                 novi.BrojUseljenih = int.Parse(txtUseljenih.Text);
                 novi.BrojIseljenih = int.Parse(txtBrojIseljenih.Text);
 

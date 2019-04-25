@@ -30,12 +30,10 @@
         {
             this.txtPocetnoStanje = new System.Windows.Forms.TextBox();
             this.txtBrojRodenih = new System.Windows.Forms.TextBox();
-            this.txtBrojPreminulih = new System.Windows.Forms.TextBox();
             this.txtBrojIseljenih = new System.Windows.Forms.TextBox();
             this.txtUseljenih = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.outputLista = new System.Windows.Forms.ListBox();
@@ -56,13 +54,6 @@
             this.txtBrojRodenih.Name = "txtBrojRodenih";
             this.txtBrojRodenih.Size = new System.Drawing.Size(100, 20);
             this.txtBrojRodenih.TabIndex = 1;
-            // 
-            // txtBrojPreminulih
-            // 
-            this.txtBrojPreminulih.Location = new System.Drawing.Point(194, 164);
-            this.txtBrojPreminulih.Name = "txtBrojPreminulih";
-            this.txtBrojPreminulih.Size = new System.Drawing.Size(100, 20);
-            this.txtBrojPreminulih.TabIndex = 2;
             // 
             // txtBrojIseljenih
             // 
@@ -95,15 +86,6 @@
             this.label2.Size = new System.Drawing.Size(118, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Broj rođenih (mjesečno)";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 171);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Broj preminulih (mjesečno)";
             // 
             // label4
             // 
@@ -161,12 +143,10 @@
             this.Controls.Add(this.outputLista);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUseljenih);
             this.Controls.Add(this.txtBrojIseljenih);
-            this.Controls.Add(this.txtBrojPreminulih);
             this.Controls.Add(this.txtBrojRodenih);
             this.Controls.Add(this.txtPocetnoStanje);
             this.Name = "Form1";
@@ -180,12 +160,10 @@
 
         private System.Windows.Forms.TextBox txtPocetnoStanje;
         private System.Windows.Forms.TextBox txtBrojRodenih;
-        private System.Windows.Forms.TextBox txtBrojPreminulih;
         private System.Windows.Forms.TextBox txtBrojIseljenih;
         private System.Windows.Forms.TextBox txtUseljenih;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox outputLista;
