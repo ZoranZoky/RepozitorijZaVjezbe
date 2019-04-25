@@ -36,10 +36,12 @@ namespace Vjezba4zornovose
                 MessageBox.Show("Neispravni podaci");
             }
         }
+<<<<<<< HEAD
 
         private void btnResetiraj_Click(object sender, EventArgs e)
         {
             MessageBox.Show(txtBrojPreminulih.Text);
         }
+=======
     }
 }
