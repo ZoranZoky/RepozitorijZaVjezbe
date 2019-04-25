@@ -37,11 +37,14 @@ namespace Vjezba4zornovose
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         private void btnResetiraj_Click(object sender, EventArgs e)
         {
             MessageBox.Show(txtBrojPreminulih.Text);
         }
+=======
+>>>>>>> parent of fd805d2... Update
 =======
 >>>>>>> parent of fd805d2... Update
     }
